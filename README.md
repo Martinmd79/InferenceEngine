@@ -1,4 +1,3 @@
-````markdown
 # Inference Engine for Propositional Logic
 [![.NET](https://img.shields.io/badge/.NET-6%2B-512BD4)](https://dotnet.microsoft.com/)
 [![Language](https://img.shields.io/badge/Language-C%23-blue)](#)
@@ -150,4 +149,3 @@ NO
 - Fully working inference engine with **TT**, **FC**, **BC**, and **RES** backends.
 - Clean separation of parsing, data structures, and reasoning strategies.
 - Improved understanding and a solid base for future extensions (e.g., heuristics, DPLL/SAT integration, proof tracing).
-````
