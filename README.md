@@ -34,21 +34,22 @@ The engine parses an input file into a knowledge base (KB) and a query, then rou
 
 ```mermaid
 flowchart LR
-  A[CLI Args<br/>(method, file)] --> B[Parser<br/>TELL/ASK]
-  B --> C[Knowledge Base]
-  B --> D[Query]
-  C --> E[TT]
-  C --> F[FC]
-  C --> G[BC]
-  C --> H[RES (CNF)]
+  A["CLI Args (method, file)"] --> B["Parser (TELL/ASK)"]
+  B --> C["Knowledge Base"]
+  B --> D["Query"]
+  C --> E["TT"]
+  C --> F["FC"]
+  C --> G["BC"]
+  C --> H["RES (CNF)"]
   D --> E
   D --> F
   D --> G
   D --> H
-  E --> I[Answer]
+  E --> I["Answer"]
   F --> I
   G --> I
   H --> I
+
 ```
 
 **Methods at a glance**
